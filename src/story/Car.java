@@ -10,8 +10,6 @@ public class Car extends Item implements Rideable {
         this.driver = driver.getName();
     }
 
-
-
     @Override
     public String getDriver(){
         return driver;
