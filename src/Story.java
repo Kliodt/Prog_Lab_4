@@ -12,7 +12,7 @@ public class Story {
         Police police = new Police();
         Robbers robbers = new Robbers();
         Cashier cashier = new Cashier();
-        Money money = new Money(100000);
+        Money money = new Money(255000);
 
         Frontage frontage = new Frontage();
         Yard yard = new Yard();
