@@ -1,7 +1,9 @@
 package story.groups;
+
 import story.*;
 import story.exceptions.ActionForbiddenException;
 import story.persons.Commissioner;
+
 import java.util.Arrays;
 
 public class Police extends Group {

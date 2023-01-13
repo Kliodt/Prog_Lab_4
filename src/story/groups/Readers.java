@@ -10,9 +10,10 @@ public class Readers extends Group {
     public void reportInfo(Group group) {
         System.out.println("Читатели сообщили сведения в: " + group.getName());
     }
-    public void writeLetter(Group group, String text, String author){
+
+    public void writeLetter(Group group, String text, String author) {
         class Letter {
-            public void sendLetter(){
+            public void sendLetter() {
                 System.out.println("~~~~~Письмо~~~~~\nПолучатель: " + group.getName() + "\n"
                         + text + "\nОтправитель: " + author + "\n~~~~~~~~~~~~~~~~");
             }
