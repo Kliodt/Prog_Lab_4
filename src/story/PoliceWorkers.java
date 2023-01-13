@@ -6,7 +6,8 @@ public enum PoliceWorkers {
     SECURITY("Охранник");
 
     private String name;
-    PoliceWorkers(String name){
+
+    PoliceWorkers(String name) {
         this.name = name;
     }
 

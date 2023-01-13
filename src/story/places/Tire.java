@@ -9,8 +9,9 @@ public class Tire implements Place {
     public String getName() {
         return name;
     }
+
     @Override
-    public String toString(){
+    public String toString() {
         return getName();
     }
 }

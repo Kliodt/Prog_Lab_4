@@ -8,19 +8,22 @@ public class Yard implements Place {
     private String street;
     private int house = 0;
 
-    public Yard(int house, String street){
+    public Yard(int house, String street) {
         this.house = house;
         this.street = street;
     }
-    public Yard(){}
+
+    public Yard() {
+    }
 
     @Override
     public String getName() {
-        if (house != 0){
+        if (house != 0) {
             return name + " дома " + house + " по улице " + street;
         }
         return name;
     }
+
     @Override
     public String toString() {
         return getName();
